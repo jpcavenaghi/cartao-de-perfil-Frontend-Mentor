@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-color);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #fff;
+    border: 1px solid var(--card-color);
+}
+
+.card img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card p ,
+.card .infos-perfil{
+    font-weight: 700;
+}
+
+.card .age, .especificacao{
+    font-weight: 400;
+}
+
+.card .infos-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid var(--card-color);
+}
+
+.card .infos-perfil .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
